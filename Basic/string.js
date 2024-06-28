@@ -40,3 +40,49 @@ console.log(url.replace('%20','_'))
 console.log(url.includes('abhishek'))
 
 console.log(gameName.split('_'))
+
+
+
+
+
+let myString = new String("   Aryan_Abhishek%20_delhi");
+console.log(myString);
+
+console.log(myString.length);
+
+console.log(myString[3]);
+
+console.log(myString.charAt(8));
+
+console.log(myString.indexOf('k'));
+
+console.log(myString.substring(0,5));
+
+console.log(myString.slice(6,14));
+
+console.log(myString.slice(-2));
+
+ console.log(myString.trim());
+
+ let myNewString = myString.replace('%20',"@");
+ console.log(myNewString);
+
+ console.log(myNewString.toUpperCase());
+
+ console.log(myNewString.toLowerCase());
+
+ console.log(myNewString.bold());
+
+ console.log(myString.fontcolor("red"));
+
+ let myCity = "Jaipur ";
+ console.log(myCity.repeat(4));
+
+
+ console.log(myCity.padEnd(10,'-'));
+
+ console.log(myCity.padEnd(10,'.'));
+ 
+ console.log(myCity.padEnd(10,'@'));
+
+ 
